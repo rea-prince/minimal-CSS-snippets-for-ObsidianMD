@@ -1,0 +1,31 @@
+/* --- Custom colors--- */
+:root {
+  --custom-color-1: #77BEF0; /* Light Blue */
+  --custom-color-2: #FFCB61; /* Yellow/Gold */
+  --custom-color-3: #FF894F; /* Orange/Coral */
+  --custom-color-4: #EA5B6F; /* Pink/Red */
+}
+
+/* H1 */
+.markdown-source-view .cm-header-1,
+.markdown-preview-view h1 { /* CHANGED FROM h2 TO h1 */
+  color: var(--custom-color-1) !important;
+}
+
+/* H2 */
+.markdown-source-view .cm-header-2,
+.markdown-preview-view h2 { /* CHANGED FROM h3 TO h2 */
+  color: var(--custom-color-4) !important;
+}
+
+/* H3 */
+.markdown-source-view .cm-header-3,
+.markdown-preview-view h3 { /* CHANGED FROM h4 TO h3 */
+  color: var(--custom-color-3) !important;
+}
+
+/* H4 */
+.markdown-source-view .cm-header-4,
+.markdown-preview-view h4 { /* CHANGED FROM h5 TO h4 */
+  color: var(--custom-color-2) !important;
+}

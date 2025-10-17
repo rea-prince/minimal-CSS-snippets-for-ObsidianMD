@@ -1,0 +1,20 @@
+/* --- Base --- */
+.kanban-plugin__lane,
+.kanban-plugin__lane-items.kanban-plugin__scroll-container {
+  background-color: color-mix(in srgb, var(--interactive-accent) 30%, white 70%) !important;
+}
+
+/* --- Dark mode --- */
+.theme-dark {
+  .kanban-plugin__lane,
+  .kanban-plugin__lane-items.kanban-plugin__scroll-container {
+    background-color: color-mix(in srgb, var(--interactive-accent) 60%, black 40%) !important;
+  }
+  .kanban-plugin__item {
+    color: var(--text-normal) !important;
+  }
+}
+/* --- Light mode --- */
+.theme-light {
+  --color-base-05: color-mix(in srgb, var(--interactive-accent) 50%, white 50%) !important;
+}
